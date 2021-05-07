@@ -77,8 +77,6 @@
   <target name="-init" depends="-javaCheck">
     <property file="ant.properties" />
     
-    <echo message="CHECKING JAVA VERSION"/>
-    <fail unless="isJava6" message="JAVA 6+ REQUIRED -- SET JAVA_HOME ENV VARIABLE TO A JAVA 6 INSTALLATION"/>
     
     <echo message="SETTING TIME STAMP"/>
     <tstamp/>
